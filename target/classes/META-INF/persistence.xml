@@ -13,10 +13,10 @@
     <class>com.chenao.entidades.Producto</class>    
     <properties>
       <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
-      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://us-cdbr-east-02.cleardb.com:3306/heroku_e396b1080e65183?
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/bd_hibernate2?
 			useUnicode=true&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC"/>
-      <property name="javax.persistence.jdbc.user" value="b7d043b8399563"/>
-      <property name="javax.persistence.jdbc.password" value="222a7f7d"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.password" value=""/>
       <property name="hibernate.show_sql" value="drop-and-create"/>
       <property name="hibernate.hbm2ddl.auto" value="update"/>
     </properties>
